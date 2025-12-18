@@ -1,0 +1,18 @@
+import type { SVGProps } from "react";
+
+const SvgSewingPinFilled = (props: SVGProps<SVGSVGElement>): JSX.Element => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    fill="none"
+    viewBox="0 0 15 15"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M7.5 1A2.5 2.5 0 0 1 8 5.95v7.55a.5.5 0 0 1-1 0V5.95A2.5 2.5 0 0 1 7.5 1"
+    />
+  </svg>
+);
+export default SvgSewingPinFilled;

@@ -1,0 +1,18 @@
+import type { SVGProps } from "react";
+
+const SvgCaretRight = (props: SVGProps<SVGSVGElement>): JSX.Element => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    fill="none"
+    viewBox="0 0 15 15"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M9.95 7.5a.45.45 0 0 1-.132.319l-3 3a.45.45 0 0 1-.636-.637L8.863 7.5 6.182 4.82l-.058-.07a.451.451 0 0 1 .624-.625l.07.058 3 3a.45.45 0 0 1 .132.318"
+    />
+  </svg>
+);
+export default SvgCaretRight;

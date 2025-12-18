@@ -1,0 +1,18 @@
+import type { SVGProps } from "react";
+
+const SvgColumns = (props: SVGProps<SVGSVGElement>): JSX.Element => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    fill="none"
+    viewBox="0 0 15 15"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M2.15 14H.85V1h1.3zm4 0h-1.3V1h1.3zm4 0h-1.3V1h1.3zm4 0h-1.3V1h1.3z"
+    />
+  </svg>
+);
+export default SvgColumns;
